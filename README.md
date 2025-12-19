@@ -6,7 +6,7 @@ It uses only in-memory data structures and does not require any external librari
 
 Clone the repository and run the program from the command line:
 
-python3 smart_cater.py
+python smart_cater.py
 
 ## How to Use ok During the Demo
 
