@@ -9,14 +9,13 @@ Clone the repository and run the program from the command line:
 python smart_cater.py
 
 ## How to Use ok During the Demo
+During the demo, the keyword ok is used in two different situations to control the flow of the program.
 
-During the demo, the keyword ok is used to indicate that the current input step is finished.
+First, when entering values for a selected filter (such as ingredients or categories), typing ok means that all values for this specific filter have been entered and the program should stop asking for more values.
 
-When entering filter values (such as ingredients or categories), typing ok tells the program that no more values will be added for that filter and that it should move on to the next step.
+Second, when choosing filter types, typing ok means that all desired filters have been selected and that the program can now execute the search using the provided filters.
 
-When selecting filter types, typing ok indicates that all desired filters have been added and that the search can be executed.
-
-This allows the user to apply multiple filters and multiple values in a flexible way before running the search.
+By using ok in these two steps, the user can first define multiple values for each filter and then clearly indicate when the overall filtering process is finished before running the search.
 ## Exit the Program
 
 You can type exit at any time to terminate the program.
