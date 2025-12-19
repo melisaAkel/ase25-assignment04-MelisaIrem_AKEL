@@ -1,0 +1,3 @@
+The selected non-functional requirement is maintainability and extensibility.
+In my implementation, I try to address this requirement by using a data-driven structure where meals, ingredients, and categories are represented as dictionaries and lists. The search logic is implemented through small, modular functions, which makes the code easier to understand and extend. New meals, categories, or filtering rules can be added without changing the core search functionality.
+A limitation of this prototype is that all data is stored in memory, so it is not persistent and not designed for large-scale usage.
